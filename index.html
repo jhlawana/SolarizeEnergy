@@ -28,6 +28,23 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 8px;
+                text-align: center;
+            }
+            table#t01 {
+                width: 100%;    
+                background-color: #ffffff;
+
+            }
+        </style>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -117,48 +134,6 @@
                 <div class="row">
                 <div class="box">
                     <div class="abouts_content">
-                        <!-- Indicators
-                        <div class="col-lg-6">
-
-                    <div id="carousel-example-generic" class="carousel slide">
-                        
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-                         -->
-                        <!-- Wrapper for slides
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="bent_paddle.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="bentpaddle2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="rooftop-solar-panels.jpg" alt="">
-                            </div>
-                        </div>
-                        -->
-                        <!-- Controls 
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    -->
-                        <!-- Controls 
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    -->
 
                         <div class="col-lg-6">
                             <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
@@ -196,54 +171,167 @@
 
                             
 
-                            <div class="single_abouts_text wow slideInRight col-lg-8" data-wow-duration="1s">
+                            <div class="single_abouts_text wow slideInRight col-lg-12" data-wow-duration="1s">
                                 <h4 style="font-family: 'Earth'; font-size: 35px; color: #ffffff;">Grid Tie</h4>
                                 <h6 style="font-family: 'Candara'; font-size: 25px; color: #ffffff; padding-left: 15px;">Uses Solar and Electricity</h6>
-                                <img src="assets/images/one.JPG" align="middle" alt="" />
+
+                                <!--TABLE-->>
+                                <table style="width:100%">
+
+                                        <table id="t01">
+                                        <tr>
+                                            <th>Computed Wattage</th>
+                                            <th>Price</th> 
+                                            <th>Savings Monthly</th>
+                                            <th>Savings Yearly</th>
+                                            <th>25 Years life span of panel</th>
+                                            <th>Return of Investment</th>
+                                        </tr>
+                                        <tr>
+                                            <td>500w</td>
+                                            <td>Php 3,8575.00</td>
+                                            <td>Php 441.00</td>
+                                            <td>Php 5,292.00</td>
+                                            <td>Php 132,300.00</td>
+                                            <td>7.2 Years</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1000w</td>
+                                            <td>Php 76,100.00</td>
+                                            <td>Php 882.00</td>
+                                            <td>Php 10,584.00</td>
+                                            <td>Php 264,600.00</td>
+                                            <td>7.1 Years</td>>
+                                        </tr>
+                                            </table>
                             </div>
 
                             <br><br><br><br>
-                            <div class="single_abouts_text wow slideInRight col-lg-4" data-wow-duration="1s">
-                                <h6 style="font-family: 'Candara'; font-size: 25px; color: #ffffff;">Return of Investment</h6>
-                                <p style="font-family: 'Candara'; font-size: 20px; color: #ffffff; padding-left: 50px;">500w = 7.2 Years</p>
-                                <p style="font-family: 'Candara'; font-size: 20px; color: #ffffff; padding-left: 50px;">1000w = 7.1 Years</p>
-                            </div>  
 
-                            <div class="single_abouts_text wow slideInRight col-lg-8" data-wow-duration="1s">
+                            <div class="single_abouts_text wow slideInRight col-lg-12" data-wow-duration="1s">
                                 <h4 style="font-family: 'Earth'; font-size: 35px; color: #ffffff; padding-top: 25px">Hybrid Grid Tie</h4>
                                 <h6 style="font-family: 'Candara'; font-size: 25px; color: #ffffff; padding-left: 15px;">System with support power consumption and excess will go to grid</h6>
-                                <img src="assets/images/two.JPG" align="middle" alt="" />
+
+                                <!-- TABLE -->
+                                <table id="t01">
+                                        <tr>
+                                            <th>Computed Wattage</th>
+                                            <th>Price</th> 
+                                            <th>Savings Monthly</th>
+                                            <th>Savings Yearly</th>
+                                            <th>25 Years life span of panel</th>
+                                            <th>Return of Investment</th>
+                                        </tr>
+                                        <tr>
+                                            <td>2000w</td>
+                                            <td>208,475 Php</td>
+                                            <td>1,764 Php</td>
+                                            <td>21,168 Php</td>
+                                            <td>529, 500</td>
+                                            <td>7.2 Years</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5000w</td>
+                                            <td>600,000 Php</td>
+                                            <td>4,410 Php</td>
+                                            <td>52,920 Php</td>
+                                            <td>1,323,000</td>
+                                            <td>7.1 Years</td>
+                                        </tr>
+                                            </table>
                             </div>
 
                             <br><br><br><br>
-                            <div class="single_abouts_text wow slideInRight col-lg-4" data-wow-duration="1s">
-                                <h6 style="font-family: 'Candara'; font-size: 25px; color: #ffffff; padding-top: 100px;">Return of Investment :</h6>
-                                <p style="font-family: 'Candara'; font-size: 20px; color: #ffffff; padding-left: 50px;">500w = 7.2 Years</p>
-                                <p style="font-family: 'Candara'; font-size: 20px; color: #ffffff; padding-left: 50px;">1000w = 7.1 Years</p>
-                            </div>
 
                             <div class="single_abouts_text wow slideInRight col-lg-8" data-wow-duration="1s">
                                 <h4 style="font-family: 'Earth'; font-size: 35px; color: #ffffff; padding-top: 25px">Off Grid</h4>
                                 <h6 style="font-family: 'Candara'; font-size: 25px; color: #ffffff; padding-left: 15px;">No access to utility grid</h6>
-                                <img src="assets/images/four.JPG" align="middle" alt="" />
-                            </div>
-                            
-                            <div class="single_abouts_text wow slideInRight col-lg-4" data-wow-duration="1s">
-                                <p style="padding-top: 185px;"><img src="assets/images/three.JPG" align="middle" alt="" /></p>
-                            </div>
+
+                                <!-- TABLE -->
+                                <table id="t01">
+                                    <caption><h4 style="color: #ffffff;">What can run with 1000w system (Php 75,000)</h4></caption>
+                                        <tr>
+                                            <th>Quantity</th>
+                                            <th>Item</th> 
+                                            <th>Wattages</th>
+                                            <th>No. of hours during the night (battery only) 6pm-6am</th>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>LED Lights</td>
+                                            <td>7</td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>32' LED TV</td>
+                                            <td>50</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Router</td>
+                                            <td>24</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Electric Fan</td>
+                                            <td>40</td>
+                                            <td>12</td>
+                                        </tr>
+                                            </table>
+                                </div>
 
                             <div class="single_abouts_text wow slideInRight col-lg-8" data-wow-duration="1s">
-                                <p style="padding-top: 30px;"><img src="assets/images/five.JPG" align="middle" alt="" />
+
+                            <!-- TABLE -->
+                                <table id="t01">
+                                    <caption><h4 style="color: #ffffff;">What can run with 2000w system (Php 143,675)</h4></caption>
+                                        <tr>
+                                            <th>Quantity</th>
+                                            <th>Item</th> 
+                                            <th>Wattages</th>
+                                            <th>No. of hours during the night (battery only) 6pm-6am</th>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>LED Lights</td>
+                                            <td>7</td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>32' LED TV</td>
+                                            <td>50</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Router</td>
+                                            <td>24</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1 hp Aircon</td>
+                                            <td>800</td>
+                                            <td>5</td>
+                                        </tr>
+                                            </table>
                             </div>
-
-
                             <div class="single_abouts_text wow zoomIn col-lg-12" data-wow-duration="1s">
+                            <br><br>
                                     <p style="font-family: 'Candara'; font-size: 14px; color: #ffffff; padding-top: 10px">Prices differ depending in consumption of appliances. All inclusive with materials and installation. (monthly savings are computed Php 7.00/Kwh from BENECO and this is a sample only)</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+                            
+                            
+                        
+                    
         </section>
 
 
@@ -261,7 +349,6 @@
                                     <img src="assets/images/ecom.png" alt="" />
                                     <div class="portfolio_images_overlay text-center">
                                         <h6>STREET LIGHTS</h6>
-                                       <!-- <a href="#portfolioModal1" class="btn btn-primary" data-toggle="modal">More</a> -->
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -354,160 +441,6 @@
                 </div>
             </div>
         </section>
-
-        <!--MODALS-->
-        <!--MODALS-->
-        <!--MODALS-->
-        <!--MODALS-->
-        <!--MODALS-->
-
-<!--MODAL 1-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="modal-body">
-                            <h2>STREET LIGHTS</h2>
-                            <hr class="star-primary">
-                            <img src="assets/images/ecom.png" class="img-responsive img-centered" alt="">
-                            <hr>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="#">Buy Product</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <blockquote><a href="#">1,199.99 Php</a></blockquote>
-                                </li>
-                            </ul>
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                            <img src="assets/images/prod.jpg" class="img-responsive img-centered" alt="">
-                        </div>
-                        </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!--MODAL 2-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>MOONLIGHT</h2>
-                            <hr class="star-primary">
-                            <img src="assets/images/ecom1.jpg" class="img-responsive img-centered" alt="">
-                            <hr>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="#">Buy Product</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <blockquote><a href="#">1,199.99 Php</a></blockquote>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!--MODAL 3-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>WATER PUMP</h2>
-                            <hr class="star-primary">
-                            <img src="assets/images/ecom2.png" class="img-responsive img-centered" alt="">
-                            <hr>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="#">Buy Product</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <blockquote><a href="#">1,199.99 Php</a></blockquote>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!--MODAL 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>SOLAR PUMP SCREW TYPE</h2>
-                            <hr class="star-primary">
-                            <img src="assets/images/ecom3.png" class="img-responsive img-centered" alt="">
-                            <hr>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="#">Buy Product</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <blockquote><a href="#">1,199.99 Php</a></blockquote>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
 
         <!--Footer-->
         <!--Footer-->
