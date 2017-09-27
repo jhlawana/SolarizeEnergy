@@ -542,6 +542,7 @@ Extra height css
 h1 span {
     color: #f56363;
     font-weight: 400;
+    font-family: 'earth';
 }
 
 /*for placeholder changes*/
@@ -682,6 +683,7 @@ font-size: 6rem;
 	width:100%;
 	top:0;
 	left:0;
+	font-family: 'earth';
 }
 
 
